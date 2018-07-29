@@ -1,0 +1,23 @@
+DataBase Procedure:
+
+1. Create Database:
+CREATE DATABASE prog10;
+
+2. Create table :
+CREATE TABLE studentdetails (
+    id int AUTO_INCREMENT,
+    name varchar(100),
+    usn varchar(50),
+    year int,
+    marks int,
+    coll varchar(200),
+    PRIMARY KEY (id)
+);
+
+3.Insert 5 sample data into table:
+INSERT INTO studentdetails VALUES
+(0,'Raj','4sh12cs001',2012,75,'Shree Devi Institute of Tech'),
+(0,'Suresh','4sh10cs002',2010,55,'Shree Devi Institute of Tech'),
+(0,'Ram','4sr11cs001',2011,75,'Srinivas Institute of Tech'),
+(0,'Som','4sj15cs001',2015,35,'StJoseph Collge of Engg'),
+(0,'Bhim','4ca14cs001',2014,75,'Canara Collage of Engg');
